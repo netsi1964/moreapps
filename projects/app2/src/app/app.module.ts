@@ -1,9 +1,8 @@
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { BrowserModule } from "@angular/platform-browser";
-import { HelloComponent } from "./shared/components/hello/hello.component";
 import { NgModule } from "@angular/core";
-import { SharedModule } from "./shared.module";
+import { SharedModule } from "src/app/shared.module";
 
 @NgModule({
   declarations: [
